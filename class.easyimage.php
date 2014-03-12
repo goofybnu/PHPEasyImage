@@ -1,4 +1,5 @@
 <?php
+include_once('bmp_functions.php');	//Required for bmp image type
 class easyImage {
 	var $m = array("image/bmp","image/x-windows-bmp","image/gif","image/jpeg","image/pjpeg","image/png");
 	var $e = array("bm","bmp","gif","jpg","jpeg","jpe","jfif","jfif-tbnl","png","x-png");
